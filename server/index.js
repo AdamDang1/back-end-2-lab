@@ -14,8 +14,8 @@ const {
 } = require('./controller');
 
 app.get('/api/houses', getHouses)
-app.delete('/api/houses/:id', deleteHouse)
 app.post('/api/houses', createHouse)
 app.put('/api/houses/:id', updateHouse)
+app.delete('/api/houses/:id', deleteHouse)
 
-app.listen(4000, () => console.log("Server running on Port 4000"));
+app.listen(4000, () => console.log("Server running on Port 4000"));``
